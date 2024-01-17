@@ -607,6 +607,8 @@ odm/lib64/libPerfectlyClearCrux.so
 odm/lib64/libPerfectlyClearCruxOpt.so
 odm/lib64/libPolarrRender.so
 odm/lib64/libPreviewDecisionOld.so
+odm/lib64/libQnnHtpAltPrepStub.so
+odm/lib64/libQnnHtpStub.so
 odm/lib64/libRedeyeReduce.so
 odm/lib64/libSNPE.so
 odm/lib64/libSNPE_G.so
@@ -678,7 +680,6 @@ odm/lib64/libop-ai-beauty-faceretouch-cn.so
 odm/lib64/libormshalclient.so
 odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libosensehalclient.so
-odm/lib64/libQnnHtpStub.so
 odm/lib64/libsnpe_dsp_domains_v2.so
 odm/lib64/libsnpe_dsp_domains_v3.so
 odm/lib64/libsnpe_htp.so
