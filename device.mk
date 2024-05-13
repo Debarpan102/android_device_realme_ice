@@ -67,6 +67,10 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget
 
+#Device-specific settings
+PRODUCT_PACKAGES += \
+    RealmePartsIce
+
 # OPlus camera
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
