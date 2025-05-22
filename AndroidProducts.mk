@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ice.mk
+    $(LOCAL_DIR)/flare_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ice-user \
-    lineage_ice-userdebug \
-    lineage_ice-eng
+    flare_ice-user \
+    flare_ice-userdebug \
+    flare_ice-eng
