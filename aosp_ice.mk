@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ice device
 $(call inherit-product, device/realme/ice/device.mk)
 
-# Inherit some common Flare stuff.
-$(call inherit-product, vendor/flare/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := flare_ice
+PRODUCT_NAME := aosp_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -27,10 +27,12 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Flare Flags
-FLARE_BUILD_TYPE := OFFICIAL
-FLARE_MAINTAINER := Debarpan102
+FLARE_BUILD_TYPE := UNOFFICIAL
+FLARE_MAINTAINER := Liquid7z
 TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_STOCK_ARCORE := trueAdd commentMore actions
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 # Boot animation resolution, choose from 480, 720, 1080, 1440.
 # Default is 1080

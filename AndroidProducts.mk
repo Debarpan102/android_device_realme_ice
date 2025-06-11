@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/flare_ice.mk
+    $(LOCAL_DIR)/aosp_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    flare_ice-user \
-    flare_ice-userdebug \
-    flare_ice-eng
+    aosp_ice-user \
+    aosp_ice-userdebug \
+    aosp_ice-eng
