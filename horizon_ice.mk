@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/ice/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/horizon/config/common_full_phone.mk)
 
 PRODUCT_NAME := aosp_ice
 PRODUCT_DEVICE := ice

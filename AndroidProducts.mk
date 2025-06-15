@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ice.mk
+    $(LOCAL_DIR)/horizon_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_ice-user \
-    aosp_ice-userdebug \
-    aosp_ice-eng
+    horizon_ice-user \
+    horizon_ice-userdebug \
+    horizon_ice-eng
