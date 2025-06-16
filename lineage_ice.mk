@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/ice/device.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/horizon/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_ice
+PRODUCT_NAME := lineage_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -31,6 +31,13 @@ TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_PREBUILT_BCR := true
+TARGET_INCLUDE_MATLOG := true
+
+
+# Gapps flags
+WITH_GMS := true
+WITH_GMS_VARIANT := core
 
 # Boot animation resolution, choose from 480, 720, 1080, 1440.
 # Default is 1080
