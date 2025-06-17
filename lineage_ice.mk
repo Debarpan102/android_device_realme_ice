@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ice device
 $(call inherit-product, device/realme/ice/device.mk)
 
-# Inherit some common AOSP stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_ice
@@ -29,7 +29,8 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 # Flare Flags
 TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_PREBUILT_BCR := true
 TARGET_INCLUDE_MATLOG := true
