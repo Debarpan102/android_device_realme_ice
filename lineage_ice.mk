@@ -40,6 +40,7 @@ TARGET_DISABLE_EPPE := true
 
 # Gapps flags
 WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
 
 # Boot animation resolution, choose from 480, 720, 1080, 1440.
 # Default is 1080
