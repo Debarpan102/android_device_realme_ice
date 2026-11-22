@@ -640,10 +640,6 @@ odm/lib64/libapsjpeg.so
 odm/lib64/libarcsoft_aicolor_image.so
 odm/lib64/libarcsoft_aicolor_video.so
 odm/lib64/libarcsoft_distortion_correction.so
-odm/lib64/libarcsoft_dualcam_bokeh_api.so
-odm/lib64/libarcsoft_dualcam_refocus_left.so
-odm/lib64/libarcsoft_dualcam_refocus_preview.so
-odm/lib64/libarcsoft_dualcam_refocus_uw.so
 odm/lib64/libarcsoft_frc.so
 odm/lib64/libarcsoft_hdr_couple_api.so
 odm/lib64/libarcsoft_hdr_couple_api_V2.so
@@ -848,6 +844,13 @@ vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
+
+# libarcsoft_dualcam blobs pinned from OnePlus 12 CPH2581_14.0.0.830(EX01)
+odm/lib64/libarcsoft_dualcam_bokeh_api.so
+odm/lib64/libarcsoft_dualcam_refocus_left.so
+odm/lib64/libarcsoft_dualcam_refocus_preview.so
+odm/lib64/libarcsoft_dualcam_refocus_uw.so
+odm/lib64/libarc.ion.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
