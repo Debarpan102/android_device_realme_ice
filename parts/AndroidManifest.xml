@@ -21,6 +21,8 @@
     android:versionName="1.0"
     android:sharedUserId="android.uid.system">
 
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
     <application
         android:icon="@drawable/ic_refresh_rate"
         android:label="@string/refresh_rate_tile_title">
@@ -32,7 +34,18 @@
             android:icon="@drawable/ic_refresh_rate"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".refreshrate.RefreshRangeTileService"
+            android:label="@string/refresh_range_tile_title"
+            android:exported="true"
+            android:icon="@drawable/ic_refresh_rate"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
         </service>
 

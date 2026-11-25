@@ -14,7 +14,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
     <!-- Refresh Rate Settings -->
+<resources>
     <string name="refresh_rate_tile_title">Refresh Rate</string>
+    <string name="refresh_range_tile_title">Refresh Range</string>
+    <string name="refresh_rate_min_label">Minimum: %1$d Hz</string>
+    <string name="refresh_rate_max_label">Maximum: %1$d Hz</string>
+    <string name="refresh_rate_reset">Reset</string>
 </resources>
