@@ -12,6 +12,9 @@ DEVICE_PATH := device/realme/ice
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# Camera
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/oplus_yupik_QGKI.config
 
