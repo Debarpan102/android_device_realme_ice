@@ -74,6 +74,9 @@ PRODUCT_PACKAGES += \
 # OPlus camera
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
+# Dolby Audio
+$(call inherit-product-if-exists, vendor/oneplus/dolby/dolby.mk)
+
 # Sensors
 PRODUCT_PACKAGES += \
     vendor.lineage.oplus_als.service
@@ -87,7 +90,11 @@ $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    device/realme/ice/vintf/compatibility_matrix.xml
+    device/realme/ice/vintf/compatibility_matrix.xml \
+    vendor/oneplus/dolby/vintf/dolby_framework_compatibility_matrix.xml
+
+DEVICE_MANIFEST_FILE += \
+    vendor/oneplus/dolby/vintf/dolby_manifest.xml
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/realme/ice/ice-vendor.mk)
